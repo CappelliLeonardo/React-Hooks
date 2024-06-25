@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-// Gli Hooks devono essere usati con use davanti
-// componenti devono avere la prima lettere Maiuscola
+// Tutti gli HOOKS devono iniziare con use davanti
+// Il componente in cui viene utilizzato l'hook DEVE AVERE LA PRIMA LETTERE MAIUSC
 // Gli Hook devono essere invocati all'interno del corpo/funzione del componente
-// Gli Hook non possono essere utilizzati in maniera condizionale
+// Gli Hook non possono essere utilizzati in maniera condizionale(per esempio negli IF else)
 
 const UsoBase = () => {
   //destrutturazione della funzione log
